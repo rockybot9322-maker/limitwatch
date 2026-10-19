@@ -1,0 +1,52 @@
+[
+ {
+  "slug": "anthropic",
+  "name": "Anthropic (Claude Code)",
+  "url": "https://claude.com/pricing"
+ },
+ {
+  "slug": "openai",
+  "name": "OpenAI (Codex / ChatGPT)",
+  "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+ },
+ {
+  "slug": "github",
+  "name": "GitHub Copilot",
+  "url": "https://docs.github.com/en/copilot/concepts/billing-and-usage/individuals/billing"
+ },
+ {
+  "slug": "cursor",
+  "name": "Cursor",
+  "url": "https://cursor.com/help/account-and-billing/pricing"
+ },
+ {
+  "slug": "windsurf",
+  "name": "Windsurf (Devin Desktop)",
+  "url": "https://devin.ai/blog/windsurf-pricing-plans"
+ },
+ {
+  "slug": "google",
+  "name": "Google (Antigravity / Gemini)",
+  "url": "https://antigravity.google/docs/plans/"
+ },
+ {
+  "slug": "zai",
+  "name": "Z.ai (GLM Coding Plan)",
+  "url": "https://docs.z.ai/devpack/overview"
+ },
+ {
+  "slug": "alibaba",
+  "name": "Alibaba Cloud (Qwen)",
+  "url": "https://help.aliyun.com/en/model-studio/coding-plan"
+ },
+ {
+  "slug": "moonshot",
+  "name": "Moonshot AI (Kimi Code)",
+  "url": "https://www.kimi.com/en/help/kimi-blackboard/plan-adjustment-notice"
+ },
+ {
+  "slug": "amazon",
+  "name": "Amazon Kiro",
+  "url": "https://kiro.dev/pricing/"
+ }
+]

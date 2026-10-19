@@ -1,0 +1,483 @@
+[
+ {
+  "slug": "claude-pro",
+  "vendor": "anthropic",
+  "name": "Claude Pro",
+  "price": "$20/mo ($17/mo billed annually)",
+  "limits": [
+   [
+    "Windows",
+    "Rolling five-hour session + weekly limit"
+   ],
+   [
+    "Session size",
+    "At least 5x Free per 5-hour session"
+   ],
+   [
+    "Claude Code weekly limit",
+    "Index 125 vs. pre-promo baseline (since 2026-09-14)"
+   ],
+   [
+    "Absolute figure",
+    "None published"
+   ]
+  ],
+  "notes": "Claude Code shares one pool with Claude chat. Usage credits available at API rates once you hit a limit.",
+  "source_url": "https://claude.com/pricing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "claude-max-5x",
+  "vendor": "anthropic",
+  "name": "Claude Max 5x",
+  "price": "$100/mo",
+  "limits": [
+   [
+    "Windows",
+    "Rolling five-hour session + weekly limit"
+   ],
+   [
+    "Session size",
+    "5x Pro per 5-hour session"
+   ],
+   [
+    "Fable",
+    "Up to 50% of weekly limits"
+   ],
+   [
+    "Absolute figure",
+    "None published"
+   ]
+  ],
+  "notes": "Includes $100/month in API credits per the pricing page.",
+  "source_url": "https://claude.com/pricing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "claude-max-20x",
+  "vendor": "anthropic",
+  "name": "Claude Max 20x",
+  "price": "$200/mo",
+  "limits": [
+   [
+    "Windows",
+    "Rolling five-hour session + weekly limit"
+   ],
+   [
+    "Session size",
+    "20x Pro per 5-hour session"
+   ],
+   [
+    "Fable",
+    "Up to 50% of weekly limits"
+   ],
+   [
+    "Absolute figure",
+    "None published"
+   ]
+  ],
+  "notes": "Includes $200/month in API credits per the pricing page.",
+  "source_url": "https://claude.com/pricing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "chatgpt-plus",
+  "vendor": "openai",
+  "name": "ChatGPT Plus (Codex)",
+  "price": "$20/mo",
+  "limits": [
+   [
+    "Windows",
+    "Five-hour + weekly (shared by Work and Codex)"
+   ],
+   [
+    "GPT-6 Astra",
+    "~5–45 local messages / 5h (estimate)"
+   ],
+   [
+    "GPT-6.1 Sol",
+    "~15–160 local messages / 5h (estimate)"
+   ],
+   [
+    "GPT-6 Luna",
+    "~350–3,000 local messages / 5h (estimate)"
+   ]
+  ],
+  "notes": "OpenAI says ranges are estimates, not guaranteed counts; cloud tasks can use more.",
+  "source_url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "chatgpt-pro-100",
+  "vendor": "openai",
+  "name": "ChatGPT Pro 100",
+  "price": "$100/mo",
+  "limits": [
+   [
+    "Five-hour limit",
+    "None currently in Work and Codex"
+   ],
+   [
+    "Included allowance",
+    "Yes (no figure published)"
+   ],
+   [
+    "Ultrafast",
+    "Not included"
+   ]
+  ],
+  "notes": "Fast mode uses allowance at 2.5x the Standard rate.",
+  "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "chatgpt-pro-200",
+  "vendor": "openai",
+  "name": "ChatGPT Pro 200",
+  "price": "$200/mo",
+  "limits": [
+   [
+    "Five-hour limit",
+    "None currently in Work and Codex"
+   ],
+   [
+    "Included allowance",
+    "Lower for new subscribers since 2026-09-29 (no figure published)"
+   ],
+   [
+    "Grandfathered",
+    "Previous allowance through 2026-10-29 if active Sep 22–29"
+   ]
+  ],
+  "notes": "After Oct 29 grandfathered subscriptions move to the lower allowance at the same price.",
+  "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "chatgpt-pro-500",
+  "vendor": "openai",
+  "name": "ChatGPT Pro 500",
+  "price": "$500/mo",
+  "limits": [
+   [
+    "Five-hour limit",
+    "None currently in Work and Codex"
+   ],
+   [
+    "Included allowance",
+    "Highest of the three Pro plans"
+   ],
+   [
+    "Ultrafast",
+    "Included; uses allowance at 8x Standard rate"
+   ]
+  ],
+  "notes": "",
+  "source_url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "copilot-pro",
+  "vendor": "github",
+  "name": "GitHub Copilot Pro",
+  "price": "$10/mo",
+  "limits": [
+   [
+    "Base credits",
+    "1,000 / month"
+   ],
+   [
+    "Flex allotment",
+    "500 / month (variable)"
+   ],
+   [
+    "Total",
+    "1,500 AI credits / month"
+   ],
+   [
+    "Reset",
+    "00:00 UTC on the 1st, no rollover"
+   ]
+  ],
+  "notes": "1 AI credit = $0.01. Code completions remain unlimited on paid plans.",
+  "source_url": "https://docs.github.com/en/copilot/concepts/billing-and-usage/individuals/billing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "copilot-pro-plus",
+  "vendor": "github",
+  "name": "GitHub Copilot Pro+",
+  "price": "$39/mo",
+  "limits": [
+   [
+    "Base credits",
+    "3,900 / month"
+   ],
+   [
+    "Flex allotment",
+    "3,100 / month (variable)"
+   ],
+   [
+    "Total",
+    "7,000 AI credits / month"
+   ],
+   [
+    "Reset",
+    "00:00 UTC on the 1st, no rollover"
+   ]
+  ],
+  "notes": "",
+  "source_url": "https://docs.github.com/en/copilot/concepts/billing-and-usage/individuals/billing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "copilot-max",
+  "vendor": "github",
+  "name": "GitHub Copilot Max",
+  "price": "$100/mo",
+  "limits": [
+   [
+    "Base credits",
+    "10,000 / month"
+   ],
+   [
+    "Flex allotment",
+    "10,000 / month (variable)"
+   ],
+   [
+    "Total",
+    "20,000 AI credits / month"
+   ]
+  ],
+  "notes": "",
+  "source_url": "https://docs.github.com/en/copilot/concepts/billing-and-usage/individuals/billing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "copilot-business",
+  "vendor": "github",
+  "name": "GitHub Copilot Business / Enterprise",
+  "price": "$19 / $39 per user/mo",
+  "limits": [
+   [
+    "Business",
+    "1,900 AI credits per user / month"
+   ],
+   [
+    "Enterprise",
+    "3,900 AI credits per user / month"
+   ],
+   [
+    "Pooling",
+    "Pooled at the billing entity level"
+   ]
+  ],
+  "notes": "Promotional 3,000 / 7,000 allowance ended 2026-09-01.",
+  "source_url": "https://docs.github.com/en/copilot/concepts/billing-and-usage/organizations-and-enterprises/billing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "cursor-x-premium",
+  "vendor": "cursor",
+  "name": "Cursor on The X Subscription (Plus / Premium / Super / Ultra)",
+  "price": "$8 / $30 / $100 / $200 per mo",
+  "limits": [
+   [
+    "Window",
+    "One weekly pool for Cursor models, shared with Grok"
+   ],
+   [
+    "Premium",
+    "4x Plus"
+   ],
+   [
+    "Super",
+    "15x Plus"
+   ],
+   [
+    "Ultra",
+    "50x Plus"
+   ],
+   [
+    "Third-party models",
+    "Not included; API list price from prepaid credit (Premium+)"
+   ]
+  ],
+  "notes": "Plus has no published absolute figure (‘Base’). New customers only since 2026-10-12.",
+  "source_url": "https://cursor.com/help/account-and-billing/pricing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "cursor-pro-legacy",
+  "vendor": "cursor",
+  "name": "Cursor Pro (legacy)",
+  "price": "$20/mo (Pro+ $60, Ultra $200)",
+  "limits": [
+   [
+    "Window",
+    "Monthly, resets with billing cycle"
+   ],
+   [
+    "Pools",
+    "Cursor Models + Other Models"
+   ],
+   [
+    "Overflow",
+    "On-demand usage (pay-as-you-go)"
+   ]
+  ],
+  "notes": "Legacy plans keep working unless you switch; switching to The X Subscription is permanent.",
+  "source_url": "https://cursor.com/help/account-and-billing/pricing",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "windsurf-pro",
+  "vendor": "windsurf",
+  "name": "Windsurf Pro",
+  "price": "$20/mo",
+  "limits": [
+   [
+    "Windows",
+    "Daily + weekly quota"
+   ],
+   [
+    "Premium Plus models",
+    "~7–27 messages/day (vendor estimate)"
+   ],
+   [
+    "Premium models",
+    "~8–101 messages/day (vendor estimate)"
+   ],
+   [
+    "Lightweight models",
+    "~47–190 messages/day (vendor estimate)"
+   ]
+  ],
+  "notes": "Figures from Windsurf’s March 18, 2026 announcement; Max ($200) estimates are listed separately in the same post.",
+  "source_url": "https://devin.ai/blog/windsurf-pricing-plans",
+  "checked": "2026-03-18"
+ },
+ {
+  "slug": "google-ai-pro",
+  "vendor": "google",
+  "name": "Google AI Pro (Antigravity)",
+  "price": "$19.99/mo",
+  "limits": [
+   [
+    "Window",
+    "Quota refreshed every five hours until weekly limit"
+   ],
+   [
+    "Weekly",
+    "Higher weekly rate limit than free"
+   ],
+   [
+    "Absolute figure",
+    "None published"
+   ]
+  ],
+  "notes": "Rate limits correlate with work done by the agent.",
+  "source_url": "https://antigravity.google/docs/plans/",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "google-ai-ultra",
+  "vendor": "google",
+  "name": "Google AI Ultra 5x / 20x (Antigravity)",
+  "price": "$99.99 / $199.99 per mo",
+  "limits": [
+   [
+    "Window",
+    "Quota refreshed every five hours"
+   ],
+   [
+    "Multiplier",
+    "5x Pro ($99.99) / 20x Pro ($199.99) worth of tokens"
+   ],
+   [
+    "Extras",
+    "Third-party models; highest weekly rate limits"
+   ]
+  ],
+  "notes": "",
+  "source_url": "https://antigravity.google/docs/plans/",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "glm-coding-pro",
+  "vendor": "zai",
+  "name": "Z.ai GLM Coding Plan (Lite / Pro / Max)",
+  "price": "From $18/mo",
+  "limits": [
+   [
+    "Lite",
+    "2,000 credits / 5h · 10,000 / week"
+   ],
+   [
+    "Pro",
+    "12,000 credits / 5h · 60,000 / week"
+   ],
+   [
+    "Max",
+    "28,000 credits / 5h · 140,000 / week"
+   ],
+   [
+    "Off-peak",
+    "50% credit rate outside Mon–Fri 14:00–18:00 UTC+8"
+   ]
+  ],
+  "notes": "",
+  "source_url": "https://docs.z.ai/devpack/overview",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "qwen-coding-pro",
+  "vendor": "alibaba",
+  "name": "Alibaba Cloud Coding Plan Pro",
+  "price": "¥200/mo",
+  "limits": [
+   [
+    "5-hour",
+    "Up to 6,000 requests"
+   ],
+   [
+    "Weekly",
+    "Up to 45,000 requests"
+   ],
+   [
+    "Monthly",
+    "Up to 90,000 requests"
+   ],
+   [
+    "Rule",
+    "Whichever cap is hit first applies"
+   ]
+  ],
+  "notes": "As listed on Alibaba Cloud’s Coding Plan docs page; Alibaba has also announced a credits-based Token Plan (2026-07-19).",
+  "source_url": "https://help.aliyun.com/en/model-studio/coding-plan",
+  "checked": "2026-10-19"
+ },
+ {
+  "slug": "kiro-pro",
+  "vendor": "amazon",
+  "name": "Amazon Kiro (Pro / Pro+ / Pro Max / Power)",
+  "price": "$20 / $40 / $100 / $200 per user/mo",
+  "limits": [
+   [
+    "Free",
+    "50 credits / month"
+   ],
+   [
+    "Add-on credits",
+    "$0.04 each, roll over 12 months"
+   ],
+   [
+    "Reset",
+    "Start of each billing month, no rollover"
+   ]
+  ],
+  "notes": "Kiro’s paid included credits were unchanged through 2026 per the Digital Applied ledger.",
+  "source_url": "https://kiro.dev/pricing/",
+  "checked": "2026-10-19"
+ }
+]
